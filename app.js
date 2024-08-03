@@ -513,3 +513,96 @@
 // Question 11
 // var pets = ["dog", "cat", "ox", "duck", "frog", "flea"];
 // var pets = pets.slice(3, 5);
+// Chapter 17-20
+
+
+// Chapter 17-20
+
+// Question 1
+// for (var i = 0; i <= 10; i++) {
+//     document.write(i + "<br>");
+// }
+
+// Question 2
+// for (var i = 0; i <= 11; i++) {
+//     document.write(i + "<br>");
+// }
+
+// Question 3
+// for(var i = 0; i <= 4; i++){
+//     document.write(i + "<br>")
+// }
+
+// Question 4
+// for(var a = 0; a <= 100; a++){
+//     document.write(a + "<br>")
+// }
+
+// Question 5
+// for(var i = 10; i <= 0; i = i-3){
+//     document.write(i + "<br>")
+// }
+
+// Question 6
+// var animals = ["Cat", "Tiger", "Dog", "Parrot", "Fish", "Lion"]
+// var length = animals.length 
+
+// Question 7
+// var countryFound = false
+// var countryTocheck = prompt("Enter a country:")
+// var cleanCountries = ["Finland","Iceland","Denmark","Sweden","Switzerland"]
+// for(i=0; i < cleanCountries.length; i++){
+//     if(countryTocheck === cleanCountries[i]){
+//         alert("It is a clean country!")
+//         countryFound == true
+//         break;
+//     }
+// }
+// if(countryFound==false){
+//     alert("It is not a clean country!")
+// }
+
+// Question 8
+// var pets = ["Cat", "Tiger", "Dog", "Parrot", "Fish", "Lion"]
+// for (var i = 0; i < pets.length; i++) {
+//     console.log(pets[i]);
+// }
+
+// Question 9
+// for (var i = 0; i < 10; i++) {
+//     if (i === 1) {
+//         alert(i); 
+//         break;    
+//     }
+// }
+
+// Question 10
+// let userNames = ["Aisha", "Sehrish", "Raheel", "Yumna"];
+// let firstName = prompt("Enter first name");
+// for (let i = 0; i < userNames.length; i++) {
+//     if (userNames[i] === firstName) {
+//         alert("Enter");
+//         break;
+//     }
+// }
+// alert("Please write correct user name");
+
+// Question 11
+// var matchFound = false;
+// for (var i = 0; i < list.length; i++) {
+//     if (userInput === list[i]) {
+//     alert("Match found");
+//     matchFound = true;
+//     break;
+//     }
+// }
+// alert("Match not found.")
+
+// Question 12
+// var frstArr = ["a", "b", "c", "d", "e", "f"];
+// var scndArr = [1, 2, 3, 4, 5, 6];
+// for (var i = 0; i < frstArr.length; i++) {
+//     for (var j = 0; j < scndArr.length; j++) {
+//         document.write(frstArr[i] + scndArr[j]);
+//     }
+// }
